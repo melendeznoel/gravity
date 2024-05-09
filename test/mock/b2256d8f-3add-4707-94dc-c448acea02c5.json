@@ -1,0 +1,31 @@
+{
+    "service": "gravity",
+    "msg": {
+        "meta": {
+            "id": "b2256d8f-3add-4707-94dc-c448acea02c5",
+            "source": "discord",
+            "timestamp": 1589391088591,
+            "type": "DiscordMessage"
+        },
+        "data": {
+            "type": "DiscordMessages",
+            "id": "710182441440116897",
+            "meta": {
+                "authorId": "485629217891942410",
+                "channelId": "702501502899716199",
+                "guildId": "702501502450925619",
+                "timestamp": 0,
+                "source": "",
+                "id": ""
+            },
+            "attributes": {
+                "id": "710182441440116897",
+                "status": "EVALUATED",
+                "text": "test 4",
+                "outcome": "s torld is a terrible place!sad"
+            }
+        }
+    },
+    "level": "info",
+    "message": "GCP Message from Topic"
+}
