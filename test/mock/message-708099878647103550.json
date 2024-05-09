@@ -1,0 +1,23 @@
+{
+  "channelID": "702501502899716199",
+  "deleted": false,
+  "id": "708099878647103550",
+  "type": "DEFAULT",
+  "content": "Test",
+  "authorID": "485629217891942410",
+  "pinned": false,
+  "tts": false,
+  "nonce": "714270658153938944",
+  "system": false,
+  "embeds": [],
+  "attachments": [],
+  "createdTimestamp": 1588894566929,
+  "editedTimestamp": null,
+  "webhookID": null,
+  "applicationID": null,
+  "activity": null,
+  "flags": 0,
+  "reference": null,
+  "guildID": "702501502450925619",
+  "cleanContent": "Test"
+}

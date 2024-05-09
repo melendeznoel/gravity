@@ -1,0 +1,41 @@
+{
+  "name": "gravity",
+  "version": "1.0.0",
+  "description": "tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --exit",
+    "build": "tsc -p .",
+    "start": "ts-node src/index.ts",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "author": "oatcoder",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.1",
+    "@google-cloud/pubsub": "^1.7.3",
+    "discord.js": "^12.2.0",
+    "googleapis": "^59.0.0",
+    "jsonapi-serializer": "^3.6.6",
+    "lodash": "^4.17.15",
+    "uuid": "^8.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@types/jsonapi-serializer": "^3.6.3",
+    "@types/lodash": "^4.14.150",
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.13.4",
+    "@types/sinon": "^9.0.0",
+    "@types/uuid": "^7.0.3",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "sinon": "^9.0.2",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^8.9.1",
+    "tslint": "^6.1.2",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.8.3"
+  }
+}
